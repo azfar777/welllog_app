@@ -1,15 +1,11 @@
 import pandas as pd
-import numpy as np
 import plotly.express as px
-import seaborn as sns
-import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import welly
 from welly import Well
 import streamlit as st
 from io import StringIO
 from plotly.subplots import make_subplots
-import plotly.graph_objects as go
 
 #Creating functions
 
