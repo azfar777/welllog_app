@@ -118,7 +118,7 @@ st.write("Please open the navigation bar to upload your file")
 #Creating a sidebar
 st.sidebar.title('Navigation')
 
-uploaded_file = st.sidebar.file_uploader("Please upload your file here")
+uploaded_file = st.sidebar.file_uploader("Please upload your las file here")
 
 
 
