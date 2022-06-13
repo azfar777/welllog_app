@@ -15,7 +15,7 @@ def home_page():
     st.image(image, caption = "Basic well log interpretation")
     
 def metadata():
-    st.write("Meta data of the well")
+    st.header("Meta data of the well")
     st.write("Please use the double arrow beside the data frame to expand the data frame")
     st.write("You can also drag the columns of the data frame to adjust the size of the columns")
     meta = well.header
@@ -31,7 +31,7 @@ def metadata():
 )
     
 def wellinfo():
-    st.write(well)
+    st.header("Well information")
 
 def datasummary():
     st.header("Summary of your log curve data")
