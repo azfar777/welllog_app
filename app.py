@@ -32,6 +32,7 @@ def metadata():
     
 def wellinfo():
     st.header("Well information")
+    st.write(well)
 
 def datasummary():
     st.header("Summary of your log curve data")
